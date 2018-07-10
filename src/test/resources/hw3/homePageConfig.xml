@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="EpamGithubSuite" verbose="1">
+    <test name="HomePageTest">
+        <parameter name="login" value="epam"/>
+        <parameter name="password" value="1234"/>
+        <parameter name="name" value="PITER CHAILOVSKII"/>
+
+        <classes>
+            <class name="hw3.HomePageLoginTest"/>
+        </classes>
+    </test>
+</suite>
